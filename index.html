@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calc</title>
+</head>
+<body>
+    <header><h1>Calculator with callback functionality</h1></header>
+    <main>
+        <div id="calc">
+            <input id="n1" type="text" placeholder="Enter number 1.." value="">
+            <input id="n2" type="text" placeholder="Enter number 2.." value="">
+            <div id="btns">
+                <button id='add' onclick="calc(this.id)">+</button>
+                <button id='sub' onclick="calc(this.id)">-</button>
+                <button id='mul' onclick="calc(this.id)">*</button>
+                <button id='div' onclick="calc(this.id)">/</button>
+                <button onclick="equal()">=</button>
+            </div>
+            <input id="result" type="text" placeholder="Result.." value="">
+        </div>
+    </main>
+    <footer></footer>
+    <script src="main.js"></script>
+</body>
+</html>

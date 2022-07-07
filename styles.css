@@ -1,0 +1,45 @@
+body{
+    margin-top: 10%;
+    background-color: antiquewhite;
+}
+
+header{
+    text-align: center;
+}
+
+#calc{
+    border: 2px solid black;
+    width: 30%;
+    padding: 2%;
+}
+
+button{
+    margin: 3%;
+    padding: 5%;
+    border: none;
+}
+
+button:hover{
+    background-color: aqua;
+}
+
+#n1{
+    margin-bottom: 2%;
+    width: 50%;
+}
+
+#n2{
+    width: 50%;
+}
+
+#result{
+    /* margin-left: 15%; */
+    width: 80%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
