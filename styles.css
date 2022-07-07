@@ -43,3 +43,23 @@ main{
     justify-content: center;
     align-items: center;
 }
+
+/******* Media Queries ******/
+
+@media (max-width: 768px)
+{
+    #calc{
+        border: 2px solid black;
+        width: 80%;
+        padding: 2%;
+    }   
+
+    #n1{
+        margin-bottom: 2%;
+        width: 80%;
+    }
+    
+    #n2{
+        width: 80%;
+    }
+}
